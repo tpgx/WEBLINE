@@ -1,0 +1,103 @@
+*{
+    
+    font-family:Tahoma, Geneva, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+    background-image: url('../imagens/fundo-pagina-carros.png');
+    background-repeat: repeat-x;
+}
+p{display: inline;}
+#corpo_pagina{
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+    min-height: 100%;
+}
+.menu_topo{
+    width: 900px;
+    height: 25px;
+    border-bottom: 1px solid #8A96A3;
+    margin: 0 auto;
+    font-size: 12px;
+    color: #536375;
+}
+.menu_topo > .welcome{margin-top: 5px; float: left; display: inline;font-weight: bold;}
+.menu_topo > .social{float: right; margin-top: 2px;}
+.menu_topo > .social > ._FB{margin-top: -3px;}
+.menu_topo > .social > ._GP{margin-left: -50px;}
+
+.menu_topo > .social > ._TW{display: inline;}
+#topo{
+    height: 150px;
+    width: 900px;
+    margin: 0 auto;
+}
+.logo{
+    margin-top: 14px;
+    float: left;
+}
+.space{
+    float: left;
+    margin-top: 25px;
+    margin-left: 70px;
+    border-right: 1px dashed #8A96A3;
+    height: 100px;
+}
+.publicidade_468x60{
+    border: 5px solid #536375;
+    width: 468px;
+    height: 60px;
+    float: right;
+    margin-top: 40px;
+    background: #8A96A3;
+    text-align: center;
+    
+}
+#busca{
+    width: 900px;
+    height: 300px;
+    background-color: #8A96A3;
+    margin: 0 auto;
+    border: 1px solid #536375;
+}
+.painel_veiculos{height: auto; margin: 0 auto; width: 900px; padding-bottom: 220px;}
+.clear{clear: both;}
+.painel_veiculos > ul{float: left;}
+.painel_veiculos > ul > li{
+    border: 5px solid #536375;
+    height: 132px;
+    width: 700px;
+    margin-top: 20px;
+    list-style-type:none;
+}
+.painel_veiculos > ul > li > .imagem_veiculos{margin: 5px; float: left; border: 1px solid #536375;}
+.lateral_esquerda{float: right; width:180px; height: 790px; background: #EEEEEE; margin-top: 20px;}
+.navegador{float: left; margin-top: 20px;}
+.loading{position: fixed;left: 45%; top: 45%; padding: 10px; display: none;}
+
+footer{
+    position:           absolute;
+    bottom:             0;
+    width:              100%;
+    height:             200px;
+    background-color:   #A5B8C6;
+    border-top: 1px solid #C1BFBF;
+    
+}
+.rodape{
+    width: 900px;
+    height: 180px;
+    margin: 0 auto;
+    text-shadow: 2px 1px 1px #FFF;
+    color: #47525B;
+    font-size: 12px;
+    margin-top: 10px;
+}
+.social_icons{
+    display: block;
+    margin-bottom: 10px;
+}
+#btn_anterior,#btn_proximo{text-indent: -9999px; }
