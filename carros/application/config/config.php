@@ -14,7 +14,7 @@
 | path to your installation.
 |
 */
-$config['base_url']	= 'http://192.168.0.92/carros/';
+$config['base_url']	= '/*CAMINHO COMPLETO DO SITE*/';
 
 /*
 |--------------------------------------------------------------------------
